@@ -19,11 +19,11 @@ const Footer = () => {
                     <div className="flex xl:justify-between xl:flex-row flex-col l items-center w-full mb-[40px]">
                         <img src={image38} alt="logo" className="lg:w-[130px] lg:h-[100px] md:w-[80px] md:h-[62px] md:mb-[40px] rounded-xl w-[80px] h-[62px]" />
                         <div className="flex md:flex-row flex-col gap-y-[30px] mt-[40px] text-center items-center md:gap-y-0 md:text-left gap-x-[30px] xl:ms-[102px] text-white xl:tracking-widest">
-                            <a href="" className="text-[16px] font-semibold">about Us</a>
-                            <a href="" className="text-[16px] font-semibold">Sponsorship</a>
-                            <a href="" className="text-[16px] font-semibold">Join Us</a>
-                            <a href="" className="text-[16px] font-semibold">Terms & Conditions</a>
-                            <a href="" className="text-[16px] font-semibold">Privacy Policy</a>
+                            <a href="" className="text-[16px] font-semibold hover:underline">about Us</a>
+                            <a href="" className="text-[16px] font-semibold hover:underline">Sponsorship</a>
+                            <a href="" className="text-[16px] font-semibold hover:underline">Join Us</a>
+                            <a href="" className="text-[16px] font-semibold hover:underline">Terms & Conditions</a>
+                            <a href="" className="text-[16px] font-semibold hover:underline">Privacy Policy</a>
                         </div>
                     </div>
                     <div className="text-white xl:mt-[40px] grid xl:grid-cols-8 xl:gap-y-[60px] items-center md:grid-cols-10 md:grid-rows-2 grid-cols-4 grid-rows-4 md:gap-y-[32px] md:mb-[40px]" >

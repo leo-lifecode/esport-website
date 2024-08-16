@@ -5,7 +5,7 @@ const Card = (props) => {
     return (
         card.map((item) => {
             return (
-                <div key={item.id} className="lg:w-[370px] w-[334px] bg-gray-900 rounded-lg border border-slate-700 shadow-md overflow-hidden">
+                <div key={item.id} className="cursor-pointer hover:ring-1 hover:ring-white lg:w-[370px] w-[334px] bg-gray-900 rounded-lg border border-slate-700 shadow-md overflow-hidden">
                     <img className="w-full object-cover" src={item.image} alt="gambar" />
                     <div className="p-[20px]">
                         <h3 className="text-white mt-[2px] mb-[2px] lg:text[24px] font-medium">{item.judul}</h3>
